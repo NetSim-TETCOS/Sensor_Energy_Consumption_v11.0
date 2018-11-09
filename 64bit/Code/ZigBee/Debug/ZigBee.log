@@ -1,0 +1,105 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  802_15_4.c
+  BackoffCalculation.c
+  BERCalculation.c
+  CCA.c
+  ChangeRadioState.c
+  LocateBackoffBoundary.c
+  MATLAB_Interface.c
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\stdbool.h(16): warning C4005: 'false': macro redefinition
+  c:\program files\matlab\r2016a\extern\include\tmwtypes.h(761): note: see previous definition of 'false'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\stdbool.h(17): warning C4005: 'true': macro redefinition
+  c:\program files\matlab\r2016a\extern\include\tmwtypes.h(764): note: see previous definition of 'true'
+f:\fileexchangeprojectsv11\sensor_energy_consumption_v11.0\64bit\code\include\main.h(212): warning C4005: 'printf': macro redefinition
+  c:\program files\matlab\r2016a\extern\include\mex.h(190): note: see previous definition of 'printf'
+f:\fileexchangeprojectsv11\sensor_energy_consumption_v11.0\64bit\code\zigbee\matlab_interface.c(71): warning C4018: '<': signed/unsigned mismatch
+f:\fileexchangeprojectsv11\sensor_energy_consumption_v11.0\64bit\code\zigbee\matlab_interface.c(85): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1772): note: see declaration of 'sprintf'
+f:\fileexchangeprojectsv11\sensor_energy_consumption_v11.0\64bit\code\zigbee\matlab_interface.c(48): warning C4101: 'battery': unreferenced local variable
+  SINRCalculation.c
+  SlottedCSMACA.c
+  Superframe.c
+  UnslottedCSMACA.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1202,5): warning MSB8012: TargetPath(F:\FileExchangeProjectsV11\Sensor_Energy_Consumption_v11.0\64bit\Code\ZigBee\../Dll\ZigBee.dll) does not match the Linker's OutputFile property value (F:\FileExchangeProjectsV11\Sensor_Energy_Consumption_v11.0\64bit\Code\Dll\libZigBee.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1204,5): warning MSB8012: TargetName(ZigBee) does not match the Linker's OutputFile property value (libZigBee). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+802_15_4.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ../Dll\ZigBee.lib and object ../Dll\ZigBee.exp
+802_15_4.obj : error LNK2019: unresolved external symbol _fnpAllocateMemory_dbg referenced in function _fn_NetSim_Zigbee_ChannelFormation
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Superframe.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _propagation_get_received_power_dbm referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetWirelessInterface referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetConnectedDevice referenced in function _fn_NetSim_Zigbee_Run
+Superframe.obj : error LNK2001: unresolved external symbol _fn_NetSim_Stack_GetConnectedDevice
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetNWProtocol referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Metrics_Add referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg referenced in function _fn_NetSim_Zigbee_Run
+Superframe.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg referenced in function _fn_NetSim_ZigBee_SinkNodeApp
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_GetBufferStatus referenced in function _fn_NetSim_Zigbee_Run
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_GetBufferStatus
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_GetBufferStatus
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer referenced in function _fn_NetSim_Zigbee_Run
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_GetPacketFromBuffer
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_DecideError referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg referenced in function _fn_NetSim_Zigbee_Run
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CopyPacket_dbg
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_WritePacketTrace_dbg referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fnGetPacketSize referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _add_dest_to_packet referenced in function _fn_NetSim_Zigbee_Run
+Superframe.obj : error LNK2001: unresolved external symbol _add_dest_to_packet
+802_15_4.obj : error LNK2019: unresolved external symbol _ReportError referenced in function _fn_NetSim_Zigbee_Run
+802_15_4.obj : error LNK2019: unresolved external symbol _fnAddEvent_F referenced in function _fn_NetSim_Zigbee_Init
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Superframe.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Configure_F referenced in function _fn_NetSim_Zigbee_Configure
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Init_F referenced in function _fn_NetSim_Zigbee_Init
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Finish_F referenced in function _fn_NetSim_Zigbee_Finish
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Trace_F referenced in function _fn_NetSim_Zigbee_Trace
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_CopyPacket_F referenced in function _fn_NetSim_Zigbee_CopyPacket
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_Metrics_F referenced in function _fn_NetSim_Zigbee_Metrics
+802_15_4.obj : error LNK2019: unresolved external symbol _fn_NetSim_Zigbee_FreePacket_F referenced in function _fn_NetSim_Zigbee_FreePacket
+Superframe.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+ChangeRadioState.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+MATLAB_Interface.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+ChangeRadioState.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+SlottedCSMACA.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+UnslottedCSMACA.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__ldEventTime
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__pszAppPath
+802_15_4.obj : error LNK2001: unresolved external symbol __imp__pszIOPath
+BackoffCalculation.obj : error LNK2019: unresolved external symbol _fn_NetSim_Utilities_GenerateRandomNo referenced in function _fn_NetSim_Zigbee_BackoffTimeCalculation
+ChangeRadioState.obj : error LNK2019: unresolved external symbol _battery_set_mode referenced in function _fn_NetSim_Zigbee_ChangeRadioState
+MATLAB_Interface.obj : error LNK2019: unresolved external symbol _mxMalloc referenced in function _fn_netsim_matlab_run
+MATLAB_Interface.obj : error LNK2019: unresolved external symbol _mxGetPr referenced in function _fn_netsim_matlab_run
+MATLAB_Interface.obj : error LNK2019: unresolved external symbol _mxCreateNumericMatrix_730 referenced in function _fn_netsim_matlab_run
+MATLAB_Interface.obj : error LNK2019: unresolved external symbol _engEvalString referenced in function _fn_netsim_matlab_finish
+MATLAB_Interface.obj : error LNK2019: unresolved external symbol _engOpen referenced in function _fn_netsim_matlab_init
+MATLAB_Interface.obj : error LNK2019: unresolved external symbol _engPutVariable referenced in function _fn_netsim_matlab_run
+MATLAB_Interface.obj : error LNK2019: unresolved external symbol _battery_get_consumed_energy referenced in function _fn_netsim_matlab_run
+Superframe.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetMacAddressFromIP referenced in function _fn_NetSim_Zigbee_SuperFrameInitialization
+Superframe.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetFirstIPAddressAsId referenced in function _fn_NetSim_Zigbee_SuperFrameInitialization
+Superframe.obj : error LNK2001: unresolved external symbol __imp__BROADCAST_MAC
+C:\Program Files\MATLAB\R2016a\extern\lib\win64\microsoft\libeng.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\MATLAB\R2016a\extern\lib\win64\microsoft\libmat.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\MATLAB\R2016a\extern\lib\win64\microsoft\libmx.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\Metrics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\Mobility.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\PropagationModel.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\BatteryModel.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\Animation.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+../Dll\libZigBee.dll : fatal error LNK1120: 41 unresolved externals
